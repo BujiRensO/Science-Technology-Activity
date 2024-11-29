@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Issues and Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #f6f6f6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background-color: #ffffff;
+        }
+        section {
+            padding: 80px 20px 20px;
+            border-bottom: 1px solid #ddd;
+            background-color: white;
+        }
+        section:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        h2 {
+            color: #ffffff;
+        }
+        h3 {
+            color: #000000;}
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .sectionone{
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    background-position-y: -35px ;
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+  }      
+  .homepagehead{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-shadow: 3.5px 3.5px #0000007c;
+  }
+  .parah1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+  .sectiontwo{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .aboutme{
+    letter-spacing: 12.5px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000000;
+    font-size: xx-large;
+  }
+
+  #Transport {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        #Transport div {
+            flex: 1; /* All columns take equal space */
+            min-width: 250px; /* Ensure proper spacing on smaller screens */
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        #Transport h3 {
+            color: #000000;
+            text-shadow: 2px 2px #c6c6c6;
+        }
+        #device-usage {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        #device-usage {
+            flex: 1 1 calc(25% - 20px); /* Four columns */
+            min-width: 200px; /* Ensures usability on smaller screens */
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        #device-usage h3 {
+            text-align: center;
+            color: #4caf50;
+            width: 100%;
+        }
+        #device-usage h4 {
+            margin-top: 0;
+            color: #333;
+        }
+        #food-consumption {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        #food-consumption div {
+            flex: 1 1 calc(25% - 20px); /* Four columns */
+            min-width: 200px; /* Ensures usability on smaller screens */
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        #food-consumption h3 {
+            text-align: center;
+            color: #4caf50;
+            width: 100%;
+        }
+        #food-consumption h4 {
+            margin-top: 0;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section id="section1" class="sectionone" style="background-image: url(https://c4.wallpaperflare.com/wallpaper/151/647/783/black-and-white-forest-lake-mist-wallpaper-preview.jpg);">
+        <h2 class="homepagehead"><br><br><br>Inventory Report on Weekly Carbon Footprint Assessment</h2>
+        <p class="parah1" style="letter-spacing: 10px; font-weight: bold;">Ivan L. Abarquez</p>
+        <p class="parah1">IT81 Science Technology and Society</p>
+      </section>
+
+<nav>
+    <ul>
+        <li><a href="#Transport">Transport</a></li>
+        <li><a href="#device-usage">Energy Usage</a></li>
+        <li><a href="#food-consumption">Food Consumption</a></li>
+        <li><a href="#conclusion">Conclusion and Reflection</a></li>
+
+    </ul>
+</nav>
+
+<section id="section2" class = "sectiontwo" style="height: 100px; background-image: url(https://img.freepik.com/free-vector/realistic-black-background-with-wavy-lines_23-2149164479.jpg);">
+    <h2 class="aboutme" style="margin-top: 10px; text-align: center;">My Weekly Carbon Footprint Breakdown</h2>
+  </section>
+ <div style="background-image: url();"> <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 10px; font-weight: bold; color: black;">Transportation</h3></div>
+<section id="Transport">
+    
+    <div>
+        <h3>Overview of Weekly Commute</h3>
+        <p><strong>Mode of Transport:</strong> Motorcycle</p>
+        <p><strong>Purpose:</strong> Daily commute to school</p>
+        <p><strong>Distance Traveled:</strong></p>
+        <ul>
+            <li><strong>Per Trip:</strong> 1 kilometer (one-way)</li>
+            <li><strong>Daily Total:</strong> 2 kilometers</li>
+            <li><strong>Weekly Total:</strong> 10 kilometers (5 weekdays)</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Carbon Emission Calculation</h3>
+        <p><strong>Emission Factor for Motorcycles:</strong> 0.103 kg CO₂ per kilometer (average)</p>
+        <p><strong>Weekly Carbon Footprint:</strong></p>
+        <p>10 km × 0.103 kg CO₂/km = <strong>1.03 kg CO₂</strong></p>
+    </div>
+    <div>
+        <h3>Impact Analysis</h3>
+        <p><strong>Key Insights:</strong></p>
+        <ul>
+            <li>Minimal emissions due to the short commute distance.</li>
+            <li>Still contributes to overall carbon footprint, which can be reduced with alternative methods of travel.</li>
+        </ul>
+        <p><strong>Comparison:</strong></p>
+        <ul>
+            <li>Emissions are less than driving a car for the same distance (0.171 kg CO₂/km).</li>
+            <li>Walking or cycling would result in zero emissions.</li>
+        </ul>
+    </div>
+</section>
+
+<div id="section2" class = "sectiontwo" style="max-height: 50px; background-image: url(https://img.freepik.com/free-photo/abstract-design-with-flowing-lines-hot-cold-colours_1048-8169.jpg);">
+    
+</div>
+<div> <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 10px; font-weight: bold; color: black;">Energy Use Assessment</h3>
+<p style="text-align: center;">My Daily Device Usage Report</p></div>
+<section id="device-usage">
+
+    <div>
+        <h4>Smartphone</h4>
+        <ul>
+            <li><strong>Charging Frequency:</strong> 2 times per day</li>
+            <li><strong>Average Charging Time:</strong> 1.5 hours per charge</li>
+            <li><strong>Power Consumption:</strong> 5 watts (average smartphone charging power)</li>
+            <li><strong>Total Daily Usage:</strong> 2 charges/day × 1.5 hours/charge × 5 watts = <strong>15 watt-hours/day</strong></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Laptop</h4>
+        <ul>
+            <li><strong>Daily Usage:</strong> 5 hours</li>
+            <li><strong>Power Consumption:</strong> 60 watts (average laptop power draw)</li>
+            <li><strong>Total Daily Usage:</strong> 5 hours/day × 60 watts = <strong>300 watt-hours/day</strong></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Weekly Energy Use</h4>
+        <ul>
+            <li><strong>Smartphone:</strong> 15 watt-hours/day × 7 days = <strong>105 watt-hours/week</strong></li>
+            <li><strong>Laptop:</strong> 300 watt-hours/day × 7 days = <strong>2100 watt-hours/week</strong></li>
+            <li><strong>Total Weekly Energy Use:</strong> 105 watt-hours + 2100 watt-hours = <strong>2205 watt-hours (or 2.205 kWh)</strong></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Carbon Footprint of Energy Use</h4>
+        <ul>
+            <li><strong>Emission Factor:</strong> 0.475 kg CO₂ per kWh (average grid electricity worldwide)</li>
+            <li><strong>Weekly Emissions:</strong> 2.205 kWh × 0.475 kg CO₂/kWh = <strong>1.05 kg CO₂</strong></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Impact Analysis</h4>
+        <ul>
+            <li><strong>Devices Contributing to Carbon Footprint:</strong></li>
+            <ul>
+                <li>Laptop is the largest contributor due to higher power consumption.</li>
+                <li>Smartphone has a smaller impact but still adds up over time.</li>
+            </ul>
+            <li><strong>Potential Savings:</strong></li>
+            <ul>
+                <li>Switching to a laptop with better energy efficiency could reduce emissions.</li>
+                <li>Using solar chargers for your phone could eliminate related carbon emissions.</li>
+            </ul>
+        </ul>
+    </div>
+</section>
+<div id="section2" class = "sectiontwo" style="max-height: 50px; background-image: url(https://img.freepik.com/free-photo/abstract-design-with-flowing-lines-hot-cold-colours_1048-8169.jpg);">
+    
+</div>
+
+<div> <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 10px; font-weight: bold; color: black;">Diet Carbon Footprint Assessment</h3>
+    <p style="text-align: center;">My Week Food Consumption Report</p></div>
+<section id="food-consumption">
+
+    <div>
+        <h4>Food: Rice</h4>
+        <ul>
+            <li><strong>Meal Frequency:</strong> 3 meals per day</li>
+            <li><strong>Accompanied By:</strong> Traditional Filipino dishes such as vegetables, fish, pork, or chicken</li>
+            <li><strong>Rice Consumption:</strong> 1 cup (158 grams) per meal</li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Rice Consumption</h4>
+        <ul>
+            <li><strong>Carbon Emission Factor:</strong> 0.4 kg CO₂ per kg of cooked rice</li>
+            <li><strong>Daily Emissions:</strong> 3 meals/day × 158g × 0.4 kg CO₂/kg = <strong>0.19 kg CO₂/day</strong></li>
+            <li><strong>Weekly Emissions:</strong> 0.19 kg CO₂/day × 7 days = <strong>1.33 kg CO₂/week</strong></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Filipino Dishes: Fish</h4>
+        <ul>
+            <li><strong>Average Serving:</strong> 100g per meal</li>
+            <li><strong>Emission Factor:</strong> 1.34 kg CO₂ per kg (for tilapia)</li>
+            <li><strong>Weekly Emissions:</strong> 3 meals/day × 0.1 kg × 1.34 kg CO₂/kg × 7 days = <strong>2.81 kg CO₂</strong></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Filipino Dishes: Pork/Chicken</h4>
+        <ul>
+            <li><strong>Pork Emission Factor:</strong> 5.83 kg CO₂ per kg</li>
+            <li><strong>Chicken Emission Factor:</strong> 1.65 kg CO₂ per kg</li>
+            <li><strong>Weekly Emissions (Pork):</strong> 0.1 × 5.83 × 3 = <strong>1.75 kg CO₂</strong></li>
+            <li><strong>Weekly Emissions (Chicken):</strong> 0.1 × 1.65 × 4 = <strong>0.66 kg CO₂</strong></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Vegetables</h4>
+        <ul>
+            <li><strong>Average Serving:</strong> 100g per meal</li>
+            <li><strong>Emission Factor:</strong> 0.1 kg CO₂ per kg</li>
+            <li><strong>Weekly Emissions:</strong> 3 meals/day × 0.1 kg × 0.1 kg CO₂/kg × 7 days = <strong>0.21 kg CO₂</strong></li>
+        </ul>
+    </div>
+
+    <div>
+        <h4>Total Weekly Carbon Footprint</h4>
+        <ul>
+            <li><strong>Rice:</strong> 1.33 kg CO₂</li>
+            <li><strong>Fish:</strong> 2.81 kg CO₂</li>
+            <li><strong>Pork/Chicken:</strong> 2.41 kg CO₂</li>
+            <li><strong>Vegetables:</strong> 0.21 kg CO₂</li>
+            <li><strong>Total:</strong> 6.76 kg CO₂</li>
+        </ul>
+    </div>
+    <div style="display: flex; justify-content: space-between;  flex-wrap: wrap;">
+        <img src="https://w0.peakpx.com/wallpaper/225/943/HD-wallpaper-rice-with-sesame-in-black-bowl.jpg" alt="Diet and Carbon Footprint" style="width: 30%; height: auto; border-radius: 10px; object-fit: cover;">
+        <img src="https://images7.alphacoders.com/382/382535.jpg" alt="Diet and Carbon Footprint" style="width: 30%; height: auto; border-radius: 10px; object-fit: cover;">
+        <img src="https://w0.peakpx.com/wallpaper/560/315/HD-wallpaper-biryani-rice-food-comida-salt-breakfast-round-foods-go.jpg" alt="Diet and Carbon Footprint" style="width: 30%; height: auto; border-radius: 10px; object-fit: cover;">
+    </div>
+    <div>
+        <h4>Impact Analysis</h4>
+        <ul>
+            <li><strong>Key Contributors:</strong></li>
+            <ul>
+                <li>Meat dishes contribute significantly due to high emissions associated with meat production.</li>
+                <li>Rice, while a staple, has a relatively low footprint compared to meat.</li>
+            </ul>
+            <li><strong>Comparison:</strong></li>
+            <ul>
+                <li>Diets with more vegetables and less meat tend to have lower carbon footprints.</li>
+            </ul>
+        </ul>
+    </div>
+</section>
+<div id="section2" class = "sectiontwo" style="max-height: 50px; background-image: url(https://img.freepik.com/free-photo/abstract-design-with-flowing-lines-hot-cold-colours_1048-8169.jpg);">
+    <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 10px; font-weight: bold; color: rgb(255, 255, 255); background-color: #5b5b5b76;">Overall Conclusion and Reflection</h3>
+</div>
+
+<div> <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 10px; font-weight: bold; color: black;">Conclusion</h3>
+   </div>
+
+
+
+<section id="conclusion">
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <!-- Commuting Section -->
+        <div style="flex: 1 1 30%; margin: 10px; padding: 15px; border: 1px solid #ccc; border-radius: 10px;">
+            <h3>Commuting</h3>
+            <p>With a carbon footprint of 1.03 kg CO₂ per week from motorcycle use, your short commute contributes a small amount to your overall emissions. However, even minor reductions, such as using a more energy-efficient vehicle, walking, or cycling, could eliminate these emissions entirely, making your daily travel even more sustainable.</p>
+        </div>
+    
+        <!-- Energy Use Section -->
+        <div style="flex: 1 1 30%; margin: 10px; padding: 15px; border: 1px solid #ccc; border-radius: 10px;">
+            <h3>Energy Use</h3>
+            <p>The 2.205 kWh of electricity consumed by your phone and laptop translates into 1.05 kg CO₂ in emissions. This is a moderate impact, with potential for improvement. By optimizing charging habits, using energy-efficient devices, or powering your devices with renewable energy, you could significantly lower the carbon footprint of your energy use.</p>
+        </div>
+    
+        <!-- Diet Section -->
+        <div style="flex: 1 1 30%; margin: 10px; padding: 15px; border: 1px solid #ccc; border-radius: 10px;">
+            <h3>Diet</h3>
+            <p>The largest contribution to your weekly carbon footprint comes from your diet, particularly from meat-based dishes, which account for 6.76 kg CO₂. Shifting towards more plant-based meals and reducing the consumption of high-emission foods like pork could dramatically lower your environmental impact. The benefits of a plant-based diet are not just limited to reducing emissions—they also promote better health and reduce strain on other environmental resources like water and land.</p>
+        </div>
+    </div>
+</section>
+
+<div  class = "sectiontwo" style="max-height: 125px; background-image: url(https://wallpapers.com/images/hd/carbon-footprint-1500-x-1050-wallpaper-ccpcqzgh41zpe7ts.jpg);">
+    <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 10px; font-weight: bold; color: rgb(255, 255, 255); background-color: #0000009c;">Total Carbon Footprint</h3>
+    <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 5px; font-weight: bold; color: rgb(255, 255, 255); background-color: #0000009c;">1.03kg CO₂+1.05kg CO₂+6.76kg CO₂</h3>
+    <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 5px; font-weight: bold; color: rgb(255, 255, 255); background-color: #0000009c;">=8.84kg CO₂</h3>
+</div>
+<br>
+<div  class = "sectiontwo" style="max-height: 125px; background-image: url(https://wallpapers.com/images/hd/carbon-footprint-1500-x-1050-wallpaper-ccpcqzgh41zpe7ts.jpg);">
+    <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 10px; font-weight: bolder; color: rgb(255, 255, 255); background-color: #0000009c;">Overall Percentage Contribution</h3>
+    <h3 style="text-align: center;  font-family: 'Courier New', Courier, monospace; letter-spacing: 5px; font-weight: bold; color: rgb(255, 255, 255); background-color: #0000009c;">Commuting: 11.65% <br>
+        Energy Use: 11.88% <br>
+        Diet: 76.27%</h3>
+    
+</div>
+<br>
+
+<div class = "sectiontwo" style="display: flex; justify-content: center; align-items: center; min-height: 100vh; background-image: url(https://wallpapers.com/images/hd/carbon-footprint-1500-x-1050-wallpaper-ccpcqzgh41zpe7ts.jpg);">
+    
+    <div style="max-width: 800px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background-color: #f9f9f9;">
+        <h2 class="homepagehead" style="color: #000000;">Reflection</h2>
+        
+        <p>For this particular exercise, I have calculated my weekly carbon footprint which is not very high indeed, but it has also made me realize how minor changes in our daily routines can make a much bigger contribution to the overall pollution in the long run. When looked at together, cutting back on emissions in travel, energy consumption, and diet add up to a favorable ripple effect not only for my footprint reduction but for healthier living.</p>
+
+        <p>I feel personally responsible for every single choice I make in my everyday life, be it selecting a green mode of transport, turning lights off every time I leave a room, or choosing healthier foods that make a positive impact on the global climate. The principal message in this case is that even the tiniest action is significant within the broader spectrum of progress towards sustainability.</p>
+
+        <p>Through observing small changes in my behavior and adjusting my action gradually, I am doing my best to reduce my contribution to the emission of greenhouse gases. They may all appear quite minor, week by week, but, collectively, they add up to a great improvement to the environment. As you’ve seen, every action helps, and millions of people like me are the driving force behind change for the better.</p>
+    </div>
+</div>
+<br>
+
+<footer style="background-image: url('https://i.pinimg.com/originals/8a/58/da/8a58da46777660f46473ba5f4a3d9ae5.jpg'); background-size: cover; background-position: center; padding: 80px 0; color: white; text-align: center;">
+    <div style="background-color: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 10px;">
+        <blockquote style="font-size: 1.5em; font-style: italic; margin-bottom: 20px;">
+            "The Earth does not belong to us. We belong to the Earth." <br> - Marlee Matlin
+        </blockquote>
+        <p style="font-size: 1.2em; margin-top: 20px;">Let’s work together for a greener tomorrow.</p>
+    </div>
+</footer>
+
+<script>
+    // Smooth scrolling behavior for older browsers
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+</script>
+
+</body>
+</html>
